@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36212.18 d17.14
+VisualStudioVersion = 17.14.36212.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppMC", "WpfApp\WpfAppMC\WpfAppMC.csproj", "{CCB27DF8-3BC7-D41C-5BA3-0EC0654F28B4}"
 EndProject
@@ -30,6 +30,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFCanvas", "WPFCanvas", "{DB816055-A0C5-41E5-BFC0-B1BD83B2097A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCanvasPOC", "WPFCanvas\WPFCanvasPOC\WpfCanvasPOC.csproj", "{8C9C868C-FDD2-2B75-0524-EAF247186D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFListBoxBinding", "WPFDataBinding\WPFListBoxBinding\WPFListBoxBinding.csproj", "{ED030519-7C8D-4F37-9AC6-C90BF5599EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFListViewBinding", "WPFDataBinding\WPFListViewBinding\WPFListViewBinding.csproj", "{DAC54F7E-634B-54E9-55BB-6C83A0253AE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{8C9C868C-FDD2-2B75-0524-EAF247186D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C9C868C-FDD2-2B75-0524-EAF247186D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C9C868C-FDD2-2B75-0524-EAF247186D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED030519-7C8D-4F37-9AC6-C90BF5599EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED030519-7C8D-4F37-9AC6-C90BF5599EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED030519-7C8D-4F37-9AC6-C90BF5599EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED030519-7C8D-4F37-9AC6-C90BF5599EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC54F7E-634B-54E9-55BB-6C83A0253AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC54F7E-634B-54E9-55BB-6C83A0253AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC54F7E-634B-54E9-55BB-6C83A0253AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC54F7E-634B-54E9-55BB-6C83A0253AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +94,8 @@ Global
 		{A71A166E-7F20-C206-DCD7-EC847BFB134A} = {8CB975A1-6215-4878-B418-A5404A45C682}
 		{924D1390-6731-5E2F-B19D-D7F1FF21722D} = {06BDB3E2-CFEB-4FCB-9845-056F1883B0AF}
 		{8C9C868C-FDD2-2B75-0524-EAF247186D09} = {DB816055-A0C5-41E5-BFC0-B1BD83B2097A}
+		{ED030519-7C8D-4F37-9AC6-C90BF5599EAD} = {D3CD7E9E-B12D-485B-AE4D-4D605DC039CA}
+		{DAC54F7E-634B-54E9-55BB-6C83A0253AE6} = {D3CD7E9E-B12D-485B-AE4D-4D605DC039CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F67CCF59-F273-4F81-B355-8B42C1089794}
