@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfAppAsync.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppAsync"
+        mc:Ignorable="d"
+        Title="WpfAppAsync" Height="450" Width="800">
+    <DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Center">
+            <Button x:Name="ButtonMakeJob" Content="Make job" Click="ButtonMakeJob_Click" Width="70" Margin="5"/>
+            <Button x:Name="ButtonMakeJob2" Content="Make job 2" Click="ButtonMakeJob2_Click" Width="70" Margin="5"/>
+            <Button x:Name="ButtonMakeJob3" Content="Make job 3" Click="ButtonMakeJob3_Click" Width="70" Margin="5"/>
+        </StackPanel>
+        <TextBlock x:Name="ResultText" DockPanel.Dock="Top" Margin="10"/>
+    </DockPanel>
+</Window>

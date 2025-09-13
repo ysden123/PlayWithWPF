@@ -12,8 +12,8 @@
             <TextBox x:Name="textBox" Width="80" Height="25"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Button x:Name="okButton" Click="okButton_Click" Margin="5,0,5,0" IsDefault="True">Ok</Button>
-            <Button x:Name="cancelButton" Click="cancelButton_Click" Margin="5,0,5,0">Cancel</Button>
+            <Button x:Name="okButton" Click="OkButton_Click" Margin="5,0,5,0" IsDefault="True">Ok</Button>
+            <Button x:Name="cancelButton" Click="CancelButton_Click" Margin="5,0,5,0" IsCancel="True">Cancel</Button>
         </StackPanel>
     </DockPanel>
 </Window>

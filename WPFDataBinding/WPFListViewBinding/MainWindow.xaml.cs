@@ -1,14 +1,5 @@
 ﻿using System.Collections.ObjectModel;
-using System.Text;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace WPFListViewBinding
 {
@@ -28,6 +19,30 @@ namespace WPFListViewBinding
         {
             InitializeComponent();
             this.ListView_Persons.ItemsSource = Persons;
+
+
+            Task.Run(() =>
+            {
+                Thread.Sleep(2000);
+                Dispatcher.Invoke(new Action(() =>
+                {
+                    Persons[1] = new Person()
+                    {
+                        Age = 321,
+                        FirstName = "Second",
+                        LastName = "The last"
+                    };
+                }));
+            });
+        }
+        private void PressMeButtonClick(object sender, RoutedEventArgs e)
+        {
+            Persons[0] = new Person()
+            {
+                Age = 12,
+                FirstName = "YYY",
+                LastName = "LLLL"
+            };
         }
     }
 }

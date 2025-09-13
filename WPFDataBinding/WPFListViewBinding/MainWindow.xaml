@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:WPFListViewBinding"
         mc:Ignorable="d"
         Title="WPFListViewBinding" Height="450" Width="800">
-    <Grid>
+    <DockPanel>
+        <Button x:Name="PressMeButton" Content="Press me" Click="PressMeButtonClick" DockPanel.Dock="Top" HorizontalAlignment="Center"/>
         <ListView x:Name="ListView_Persons" Margin="4,0,1,10">
             <ListView.View>
                 <GridView>
@@ -16,5 +17,5 @@
                 </GridView>
             </ListView.View>
         </ListView>
-    </Grid>
+    </DockPanel>
 </Window>

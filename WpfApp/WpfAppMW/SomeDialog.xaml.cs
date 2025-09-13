@@ -7,7 +7,7 @@ namespace WpfAppMW
     /// </summary>
     public partial class SomeDialog : Window
     {
-        private SomeDialogData _data;
+        private readonly SomeDialogData _data;
         public SomeDialog(SomeDialogData someDialogData)
         {
             InitializeComponent();
@@ -15,14 +15,14 @@ namespace WpfAppMW
             textBox.Text = _data.T1;
         }
 
-        private void okButton_Click(object sender, RoutedEventArgs e)
+        private void OkButton_Click(object sender, RoutedEventArgs e)
         {
             _data.T1 = textBox.Text;
             DialogResult = true;
             Close();
         }
 
-        private void cancelButton_Click(object sender, RoutedEventArgs e)
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
             DialogResult = false;
             Close();
