@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppAsync", "WpfApp\WpfAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFImageFromResource", "WPFDataBinding\WPFImageFromResource\WPFImageFromResource.csproj", "{E808D406-D571-4FE6-8726-68296DA98DC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFINotifyPropertyChanged", "WPFDataBinding\WPFINotifyPropertyChanged\WPFINotifyPropertyChanged.csproj", "{C0CB000C-5380-45AD-AB8F-AC17593B8371}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{E808D406-D571-4FE6-8726-68296DA98DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E808D406-D571-4FE6-8726-68296DA98DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E808D406-D571-4FE6-8726-68296DA98DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0CB000C-5380-45AD-AB8F-AC17593B8371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CB000C-5380-45AD-AB8F-AC17593B8371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CB000C-5380-45AD-AB8F-AC17593B8371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CB000C-5380-45AD-AB8F-AC17593B8371}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +116,7 @@ Global
 		{DAC54F7E-634B-54E9-55BB-6C83A0253AE6} = {D3CD7E9E-B12D-485B-AE4D-4D605DC039CA}
 		{FE7B31CC-E270-4152-91FA-813500E36EEC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E808D406-D571-4FE6-8726-68296DA98DC1} = {D3CD7E9E-B12D-485B-AE4D-4D605DC039CA}
+		{C0CB000C-5380-45AD-AB8F-AC17593B8371} = {D3CD7E9E-B12D-485B-AE4D-4D605DC039CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F67CCF59-F273-4F81-B355-8B42C1089794}
