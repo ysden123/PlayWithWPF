@@ -1,3 +1,3 @@
-= WpfAppMC
+# WpfAppMC
 
 Project that is experimenting with multiple controls in the WPF applicaion.

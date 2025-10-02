@@ -1,3 +1,3 @@
-= WpfAppAsync
+# WpfAppAsync
 
 Project that is experimenting with the usage of async methods in a WPF application.

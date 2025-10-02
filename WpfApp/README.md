@@ -1,3 +1,3 @@
-= WpfApp
+# WpfApp
 
 Projects that are experimenting with WPF applicaions: multiple controls, multiple windows.

@@ -1,3 +1,3 @@
-= PlayWithWPF
+# PlayWithWPF
 
 Playing with WPF. Test projects with usage of the WPF features.

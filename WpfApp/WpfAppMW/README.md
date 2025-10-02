@@ -1,3 +1,3 @@
-= WpfAppMW
+# WpfAppMW
 
 Project that is experimenting with multiple windows and dialogs in the WPF applicaion.
