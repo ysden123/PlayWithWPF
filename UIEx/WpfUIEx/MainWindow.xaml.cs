@@ -42,9 +42,14 @@ namespace WpfUIEx
             CC.Content = new GridEx01();
         }
 
-        private void EventHandlersMenuItem_Click(object sender, RoutedEventArgs e)
+        private void EventHandlers1MenuItem_Click(object sender, RoutedEventArgs e)
         {
             CC.Content = new EventHandlerEx1();
+        }
+
+        private void EventHandlers2MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            CC.Content = new EventHandlerEx2();
         }
     }
 }
